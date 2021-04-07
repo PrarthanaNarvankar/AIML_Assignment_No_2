@@ -1,0 +1,58 @@
+Question 1
+What is Deep Learning? Read about various activation functions.
+
+Ans:
+    -->Deep Learning is a subset of Machine Learning, which on the other hand is a subset of Artificial Intelligence. Artificial 
+    Intelligence is a general term that refers to techniques that enable computers to mimic human behavior. Machine Learning represents a set of algorithms trained on data that make all of this possible.
+
+    -->Deep Learning, on the other hand, is just a type of Machine Learning, inspired by the structure of a human brain. Deep learning algorithms attempt to draw similar conclusions as humans would by continually analyzing data with a given logical structure. To achieve this, deep learning uses a multi-layered structure of algorithms called neural networks.
+
+    Popular types of activation functions:
+    1. Binary Step Function
+    2. Linear Function
+    3. Sigmoid
+    4. Tanh
+    5. ReLU
+    6. Leaky ReLU
+
+Question 2
+Difference between supervised and unsupervised with your own set of examples.
+
+Ans:
+     Supervised Learning:
+     1)Supervised learning algorithms are trained using labeled data.
+     2)Supervised learning model takes direct feedback to check if it is predicting correct output or not.
+     3)Supervised learning model predicts the output.
+     4)Supervised learning needs supervision to train the model.
+     5)The goal of supervised learning is to train the model so that it can predict the output when it is given new data.
+     6)Supervised learning model produces an accurate result.
+
+     Example:-Suppose there is a basket which is filled with some fresh fruits, the task is to arrange the same type of fruits at one place.Also, suppose that the fruits are apple, banana, cherry, grape.Suppose one already knows from their previous work or experience that, the shape of each and every fruit present in the basket so, it is easy for them to arrange the same type of fruits in one place.Here, the previous work is called as training data in Data Mining terminology. So, it learns the things from the training data. This is because it has a response variable which says y that if some fruit has so and so features then it is grape, and similarly for each and every fruit.
+     This type of information is deciphered from the data that is used to train the model.
+     This type of learning is called Supervised Learning.
+
+
+
+     Unsupervised Learning:
+     1)Unsupervised learning algorithms are trained using unlabeled data.
+     2)Unsupervised learning model does not take any feedback.
+     3)Unsupervised learning model finds the hidden patterns in data.
+     4)Unsupervised learning does not need any supervision to train the model.
+     5)The goal of unsupervised learning is to find the hidden patterns and useful insights from the unknown dataset.
+     6)Unsupervised learning model may give less accurate result as compared to supervised learning.
+
+     Example:-Again, Suppose there is a basket and it is filled with some fresh fruits. The task is to arrange the same type of fruits at one place.This time there is no information about those fruits beforehand, its the first time that the fruits are being seen or discoveredSo how to group similar fruits without any prior knowledge about those.
+     First, any physical characteristic of a particular fruit is selected.
+     Suppose color.
+
+      Then the fruits are arranged on the basis of the color. The groups will be something as shown below:
+      RED COLOR GROUP: apples & cherry fruits.
+      GREEN COLOR GROUP: bananas & grapes.
+
+      So now, take another physical character say, size, so now the groups will be something like this.
+      RED COLOR AND BIG SIZE: apple.
+      RED COLOR AND SMALL SIZE: cherry fruits.
+      GREEN COLOR AND BIG SIZE: bananas.
+      GREEN COLOR AND SMALL SIZE: grapes.
+      The job is done!
+      Here, there is no need to know or learn anything beforehand. That means, no train data and no response variable. This type of learning is known as Unsupervised Learning.
